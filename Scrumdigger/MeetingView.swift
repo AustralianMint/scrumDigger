@@ -1,9 +1,11 @@
-//
 //  ContentView.swift
 //  Scrumdigger
 //
 //  Created by Thomas Frey on 04.11.22.
 //
+// First structure conforms to View protocall.
+// It has a body, which returns a View.
+// This view is what I'm coding. The 'Meeting' View
 
 import SwiftUI
 
@@ -24,15 +26,23 @@ struct MeetingView: View {
                     Label("600", systemImage: "hourglass.tophalf.fill")
                 }
             }
+            //add own definition to accessibility e.g Voice Over
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel("Time remaining")
+            .accessibilityValue("10 minutes")
             Circle()
                 .strokeBorder(lineWidth: 12)
+                .foregroundColor(.blue)
             HStack{
                 Text("Speaker 1 of 3")
+                Spacer()
                 Button(action: {}) {
                     Image(systemName: "forward.fill")
                 }
             }
+            .accessibilityLabel("Next Speaker")
         }
+        .padding()
     }
 }
 
