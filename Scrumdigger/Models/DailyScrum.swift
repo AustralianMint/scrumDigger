@@ -5,15 +5,30 @@
 //  Created by Thomas Frey on 04.11.22.
 //
 
+
+//creating definition for Daily Scrums and what properties it has.
 import Foundation
 
 //structure with properties
-struct DailyScrum {
+struct DailyScrum: Identifiable{
+    var id: UUID
     var title: String
     var attendees: [String]
     var lengthInMinutes: Int
     var theme: Theme
+    
+    //these initializers add default value to the id Property.
+    init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, theme: Theme) {
+        self.id = id
+        self.title = title
+        self.attendees = attendees
+        self.lengthInMinutes = lengthInMinutes
+        self.theme = theme
+    }
 }
+
+
+
 
 //extension with sample data
 extension DailyScrum {
