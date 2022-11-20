@@ -18,6 +18,7 @@
 		275CA3272915765D00569DAF /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275CA3262915765D00569DAF /* DailyScrum.swift */; };
 		275CA3292915789800569DAF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275CA3282915789800569DAF /* CardView.swift */; };
 		275CA32B2915A5F400569DAF /* TralingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275CA32A2915A5F400569DAF /* TralingIconLabelStyle.swift */; };
+		27968209292A9E2000AFB40A /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27968208292A9E2000AFB40A /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		275CA3262915765D00569DAF /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		275CA3282915789800569DAF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		275CA32A2915A5F400569DAF /* TralingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TralingIconLabelStyle.swift; sourceTree = "<group>"; };
+		27968208292A9E2000AFB40A /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,11 +104,12 @@
 		275CA2F829148D1700569DAF /* Scrumdigger */ = {
 			isa = PBXGroup;
 			children = (
-				275CA323291571D500569DAF /* Models */,
 				275CA2F929148D1700569DAF /* ScrumdiggerApp.swift */,
 				275CA2FB29148D1700569DAF /* MeetingView.swift */,
 				275CA3282915789800569DAF /* CardView.swift */,
+				27968208292A9E2000AFB40A /* ScrumsView.swift */,
 				275CA32A2915A5F400569DAF /* TralingIconLabelStyle.swift */,
+				275CA323291571D500569DAF /* Models */,
 				275CA2FD29148D1800569DAF /* Assets.xcassets */,
 				275CA2FF29148D1800569DAF /* Preview Content */,
 			);
@@ -280,6 +283,7 @@
 				275CA3272915765D00569DAF /* DailyScrum.swift in Sources */,
 				275CA3252915720100569DAF /* Theme.swift in Sources */,
 				275CA2FC29148D1700569DAF /* MeetingView.swift in Sources */,
+				27968209292A9E2000AFB40A /* ScrumsView.swift in Sources */,
 				275CA2FA29148D1700569DAF /* ScrumdiggerApp.swift in Sources */,
 				275CA3292915789800569DAF /* CardView.swift in Sources */,
 				275CA32B2915A5F400569DAF /* TralingIconLabelStyle.swift in Sources */,
