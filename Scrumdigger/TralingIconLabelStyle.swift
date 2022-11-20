@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-//custom label style for all labels
+//custom label style for all labels, conforms to LabelStyle.
 struct TrailingIconLabelStyle: LabelStyle {
     func makeBody(configuration: Configuration) -> some View {
         HStack {
@@ -17,6 +17,8 @@ struct TrailingIconLabelStyle: LabelStyle {
     }
 }
 
+//an extension for LabelStyle
+//creates static property named trailingIcon
 extension LabelStyle where Self == TrailingIconLabelStyle {
     static var trailingIcon: Self { Self() }
 }
