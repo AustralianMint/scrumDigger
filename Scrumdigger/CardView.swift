@@ -5,6 +5,9 @@
 //  Created by Thomas Frey on 04.11.22.
 //
 
+// Building Block for the Complete List.
+// Builing a single list view here.
+
 import Foundation
 import SwiftUI
 
@@ -18,6 +21,7 @@ struct CardView: View {
                 Label("\(scrum.attendees.count)", systemImage: "person.3")
                 Spacer()
                 Label("\(scrum.lengthInMinutes)", systemImage: "clock")
+                    //referencing other .swift file.
                     .labelStyle(.trailingIcon)
             }
             .font(.caption)
