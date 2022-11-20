@@ -1,6 +1,6 @@
 # Scrummdigger iOS tutorial
 
-I am following this tutorial by apple
+I am following this tutorial by apple \n
 Resource: https://developer.apple.com/tutorials/app-dev-training/creating-a-navigation-hierarchy
 
 I a porgramming in Swift. Using SwiftUI Framwork.
